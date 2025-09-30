@@ -140,13 +140,6 @@ p {
   margin: 0px;
 }
 
-.loading-text span::before {
-  content: "━━━ S M R ━━━";
-  display: inline-block;
-  color: rgb(151, 151, 151);
-  font-size: clamp(.5rem, 1vw, .5rem);
-}
-
 .img-bg {
   background-position: center center;
   background-size: cover;
@@ -321,9 +314,9 @@ p {
   height: 100%;
   border-style: solid;
   /* Spinner Color */
-  border-color: #E8505B #E8505B #ddd;
+  border-color: #ff0011 #E8505B #e7e7e7;
   border-radius: 50%;
-  border-width: 6px;
+  border-width: 10px;
 }
 
 .preloader .loader .ytp-spinner-left .ytp-spinner-circle {
